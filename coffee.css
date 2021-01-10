@@ -1,0 +1,91 @@
+body
+{
+    background:url(hatter.jpg) center fixed no-repeat;
+    color: whitesmoke;
+}
+
+h1
+{
+    text-align: center;
+    font-family: Papyrus, fantasy; font-size: 40px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+}
+
+table
+{
+    margin: auto;
+
+}
+
+td
+{
+    text-align: top;
+    text-align: center;
+    width: 350px;
+    height: 120px;
+}
+
+p
+{
+    font-family: Papyrus, fantasy; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
+}
+
+select
+{
+    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 24px;
+    width: 80%;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 2px;
+    background-color: hsl(35, 32%, 37%);
+    color: whitesmoke;
+    outline: none;
+}
+
+.myRange
+{
+    appearance: none;
+    width: 80%;
+    height: 52px; 
+    background-color: hsl(35, 32%, 37%); 
+    outline: none;
+    opacity: 1;
+}
+
+.myRange::-webkit-slider-thumb 
+{
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background: whitesmoke;
+    cursor: pointer;
+}
+
+.igen
+{
+    height: 380px;
+}
+
+div
+{
+    font-family: Papyrus, fantasy; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
+    text-align: center;
+}
+
+.ar
+{
+    font-family: Papyrus, fantasy; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
+    text-align: center;
+}
+
+button
+{
+    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 24px;
+    outline: none;
+    background-color: hsl(35, 32%, 37%); 
+    color: whitesmoke;
+    height: 50px;
+    width: 300px;
+    border: transparent;
+    border-radius: 5px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <script src="coffee.js"></script>
+    <link rel="stylesheet" href="coffee.css" type="text/css">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kávé</title>
+</head>
+<body>
+    <h1>Kávé</h1>
+    <table>
+        <tr><td class="elso_oszlop">
+        <p>Választható kávék: </p>
+        <select name="slct1" id="slct1" onchange="fuggveny1('slct1' , 'slct2')">
+            <option value="------">------</option>
+            <option value="Latte">Latte</option>
+            <option value="Espresso">Espresso</option>
+            <option value="Cappuccino">Cappuccino</option>
+        </select></td>
+
+        <td class="masodik_oszlop">
+        <p>Tej: </p>
+        <select name="slct2" id="slct2"  onchange="fuggveny2('slct1' , 'slct3')"></select>
+        </td>
+
+        <td class="harmadik_oszlop">
+        <p>Cukor: </p>
+        <select name="slct3" id="slct3"></select>
+        </td>
+
+        <td class="negyedik_oszlop">
+        <p>Cukor mennyisége (db; 0-3): </p>
+        <input type="range" min="0" max="3" value="1" class="myRange" id="slct4">
+        </td>
+    </tr>
+    </table>
+    <div class="igen"></div>
+    <div><button onclick="fuggveny3('slct1', 'slct2', 'slct3', 'slct4')">  Ön által választott kávé ára:   </button><br>
+        <p id ="ar" class="ar">0 Ft</p>
+    </div>
+
+
+    <br><br>
+</body>
+</html>
